@@ -18,7 +18,7 @@ namespace ProsAndCons.Controllers
         public IEnumerable<Topic> Index()
         {
             var result = new[] {
-                new Topic(1, "First to try", (new List<Argument>() {new Argument(1, "Pkus", true, 1)}))
+                new Topic(1, "First try", (new List<Argument>() {new Argument(1, "Pkus", true, 1)}))
             };
             return result;
         }
